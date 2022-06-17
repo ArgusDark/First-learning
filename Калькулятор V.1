@@ -1,0 +1,25 @@
+# Калькулятор бот v.1
+name = input("Привет, я Калькулятор бот v.1, как тебя зовут? " )
+age = input("Привет, " + name + ". Сколько тебе лет? " )
+print("Вау, " + name + " тебе целых " + age + " лет! Что мне сделать для тебя?")
+
+a = float( input("Введи первое число: ") )
+dug = ( input("Что мне сделать? ") )
+b = float( input("Введи второе число:" ) )
+
+# Денис лох:)
+
+if dug == "+" :
+	c = a + b
+	print(round (c))
+elif dug == "-" :
+	c = a - b
+	print(round (c))
+elif dug == "*":
+	c = a * b
+	print(round (c))
+elif dug == "/":
+	c = a / b
+	print(round (c))
+else:
+	print('Ты делаешь что-то не правильно(')
